@@ -154,3 +154,10 @@ header {
     .card-container {
         padding: 80px 0;
     }
+
+    .card-section .card-section-title {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    }
