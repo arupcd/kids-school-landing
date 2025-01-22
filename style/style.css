@@ -1,0 +1,156 @@
+/* FONT FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER SECTION */
+header {
+    background-color: rgb(247, 247, 247);
+}
+.header {
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+
+}
+
+.header-logo {
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo .logo-image {
+    width: 62px;
+    height: 62px;
+}
+.navbar .logo-title {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.navbar {
+    width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+}
+.nav-links a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.nav-links .orange-color {
+    color: rgb(254, 163, 1);
+}
+.nav-links .blue-color {
+    color: rgb(1, 172, 253);
+}
+.nav-links .ki-color-jani {
+    color: rgb(5, 212, 223);
+}
+.nav-links .violet-color {
+    color: rgb(93, 88, 239);
+}
+
+
+/* Primary Style */
+.navbar, 
+.header-logo,
+.nav-links,
+.card-container
+    {
+        display: flex;
+    }
+
+    .btn {
+        font-family: "Quicksand", serif;
+        width: 197px;
+        height: 50px;
+        border-radius: 12px;
+        font-size: 1.2rem;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn-primary {
+        background: rgb(254, 163, 1);
+        color: #fff;
+    }
+
+    /* BANNER */
+    .banner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1400px;
+        margin: 0 auto;
+        width: 1440px;
+    }
+    .banner-content {
+        margin-right: 50px;
+    }
+    .banner-content .banner-title {
+        font-family: Quicksand;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 61px;
+        margin-bottom: 0;
+    }
+    .banner-description {
+        color: rgb(17, 17, 17);
+        font-family: Quicksand;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        margin-top: 24px;
+        margin-bottom: 0;
+    }
+    .banner-content .banner-btn {
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 12px;
+        background: rgb(17, 17, 17);
+        color: #fff;
+        margin-top: 24px;
+    }
+    .banner-image {
+    width: 468.61px;
+    height: 575px;
+    margin: 0px 0px;
+    }
+
+    /* CARD SECTION */
+
+    .card-section {
+        max-width: 1400px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 60px 0px;
+        background-image: url("../assets/bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card-container {
+        padding: 80px 0;
+    }
