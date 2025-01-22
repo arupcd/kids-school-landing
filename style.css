@@ -233,3 +233,98 @@ header {
         text-align: center;
         text-decoration: none;
     }
+
+    .angle-arrows {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card-section .angle-arrow {
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        background: rgb(254, 163, 1);
+        color: rgb(255, 255, 255);
+        font-family: Font Awesome 5 Free;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 24px;
+        cursor: pointer;
+    }
+    .angle-arrow i {
+        margin-top: 17px;
+        
+    }
+
+    /* FOOTER SECTION */
+    .footer-section {
+        background: rgb(1, 172, 253);
+    }
+
+    .footer-container {
+        width: 1439px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        padding: 123px 140px;
+
+    }
+    .footer-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-description {
+        width: 399.02px;
+    }
+
+    .footer-section .footer-img {
+        width: 82.9px;
+        height: 81.65px;
+    }
+
+    .footer-col .footer-title {
+        color: rgb(255, 255, 255);
+        font-size: 42.14px;
+        font-weight: 700;
+        line-height: 39.51px;
+        margin: 0;
+    }
+    .footer-col .footer-description {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: left;
+        margin-left: 12px;
+    }
+    .footer-container .footer-menu-title {
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: left;
+        align-items: start;
+        margin-top: 0;
+        margin-bottom: 32px;
+    }
+
+    .footer-col .footer-item {
+        list-style-type: none; 
+        margin-bottom: 15px;
+        margin-left: -40px;
+    }
+    .footer-col .footer-items a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+        margin: 0;
+        padding: 0;
+    }
